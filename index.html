@@ -1,262 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com -->
-  <title>D&M Company ltd</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-   
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <title>DMCO.Ltd</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
 
-   <nav class="navbar navbar-default navbar-fixed-top">
-     <div class="container">
-       <div class="navbar-header">
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>                        
-         </button>
-         <a class="navbar-brand" href="#myPage">D & M LTD.</a>
-       </div>
-       <div class="collapse navbar-collapse" id="myNavbar">
-         <ul class="nav navbar-nav navbar-right">
-           <li><a href="#about">ABOUT</a></li>
-           <li><a href="#services">SERVICES</a></li>
-           <li><a href="#pricing">PRICING</a></li>
-           <li><a href="#contact">CONTACT</a></li>
-         </ul>
-       </div>
-     </div>
-   </nav>
-   
-   <div class="jumbotron text-center">
-     <h1>DIGITAL & MECANICAL LTD.</h1> 
-   </div>
-   
-   <!-- Container (About Section) -->
-   <div id="about" class="container-fluid">
-     <div class="row">
-       <div class="col-sm-8">
-           <h2>D&M COMPANY LTD</h2><br>
-          <p>Using this smart blind stick, a visually impaired person can walk without anyone's help. The smart blind stick automatically detects the obstacle in front of the person and give him a response to the person by vibrating the stick and also with a warning sound..</p>
-          <p>Visually impaired people are the people who can't identify smallest detail  with healthy  eyes. Those  who have  the visual acuity of 6/60 or the horizontal extent of the visual field with both eyes open less than or equal to 20 degrees, these people are  considered blind. Such people  are in  need  of aiding devices for  blindness related  disabilities. 10% of blind have no usable eyesight at all to help them move around  independently  and  safely.  The  electronic  aiding devices are designed to solve such issue</p>
-           <br><button class="btn btn-default btn-lg">More info</button>
-         </div>
-         <div class="col-sm-4">
-          <img src="smart.jpg" width="300px" height="200px">
+  <body id="hom" class="scrollspy">
+    <header>
+      <nav class="wrapper teal darken-3">
+        <div class="container ">
+        <a href="" class="brand-logo center">Dmco.Ltd </a>
+         <a href="" class="sidenav-trigger" data-target="mobile">
+                 <i class="material-icons">menu</i>
+                </a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#">Contact Us </a></li>
+        </ul>
         </div>
-         </div>
-         
+    </nav>
+    <ul class="sidenav teal darken-3" id="mobile">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#">Contact Us </a></li>
+  
+        </ul>
+    </header>
+    <div class="container" id="home">
+    <section class="slider">
+      <ul class="slides">
+        <li>
+          <img src="images/smart.jpg" class="responsive-img" >
+          <div class="caption center-align">
+            <h3>this smart Cane is capable of detect obstacles ahead !</h3>
+            <h5 class="light grey-text text-lighten-3">for accident prevention </h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/work1.jpg" class="responsive-img"> <!-- random image -->
+          <div class="caption left-align">
+            <h3 class="teal darken-3">Production Workshop</h3>
+            <h5 class="light white-text text-lighten-3">This our small roo used in prototype development</h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/adrien3.jpg" width="300" height="300"> <!-- random image -->
+          <div class="caption right-align">
+            <h3 class="teal darken-3">Prototype</h3>
+            <h5 class="light grey-text text-lighten-3">Our first prototype is working as expected</h5>
+          </div>
+        </li>
+        <li>
+          <img src="images/expo.jpg" class="responsive-img"> <!-- random image -->
+          <div class="caption right-align">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h4 class="teal darken-3">Digital Blind Stick demonstration!</h4>
+          
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!--section visio and mission-->
+  <section class="section section-icon grey lighten-4 center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">directions_walk</i>
+            <h4 class="teal-text">Our Mission</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Temporibus aperiam id similique amet, 
+              totam laborum consequuntur exercitationem
+               sed blanditiis cum.</p>
+          </div>
         </div>
-   
-   </div>
-   
-   <div class="container-fluid bg-grey">
-     <div class="row">
-       <div class="col-sm-4">
-        <img src="newstick.jpg" width="400px">
-       </div>
-       <div class="col-sm-4">
-          <h2>MISSION</h2>
-         <h4><strong></strong>Produce and sell smart blind stick which have a good quality,affordable and price competitive </h4><br>
-       </div>
-       <div class="col-sm-4">
-          <h2>VISION</h2>
-          <p><strong></strong> Our vision is empower all blind people with smart blind stick which will help them in their daily life hence increase they productivity</p>
+        <div class="col s12 m6">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">visibility</i>
+            <h4 class="teal-text">Our Vision</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Temporibus aperiam id similique amet, 
+              totam laborum consequuntur exercitationem
+               sed blanditiis cum.</p>
+          </div>
         </div>
-     </div>
-   </div>
-   
-   <!-- Container (Services Section) -->
-   <div id="services" class="container-fluid text-center">
-     <h2>SERVICES</h2>
-     <h4>What we offer</h4>
-     <br>
-     <div class="row slideanim">
-       <div class="col-sm-4">
-         <span class="glyphicon glyphicon-off logo-small"></span>
-         <h4>POWER</h4>
-         <p>Quick service is a must for customer satisfaction</p>
-       </div>
-       <div class="col-sm-4">
-         <span class="glyphicon glyphicon-heart logo-small"></span>
-         <h4>LOVE</h4>
-         <p>Our customers value is priority</p>
-       </div>
-       <div class="col-sm-4">
-         <span class="glyphicon glyphicon-lock logo-small"></span>
-         <h4>JOB DONE</h4>
-         <p>We value your time and your money. the deal is deal</p>
-       </div>
-     </div>
-     <br><br>
-     <div class="row slideanim">
-       <div class="col-sm-4">
-         <span class="glyphicon glyphicon-leaf logo-small"></span>
-         <h4>GREEN</h4>
-         <p>Our product is environmental frindly.</p>
-       </div>
-       <div class="col-sm-4">
-         <span class="glyphicon glyphicon-certificate logo-small"></span>
-         <h4>CERTIFIED</h4>
-         <p>Our product is certified and it confirms with high standards</p>
-       </div>
-       <div class="col-sm-4">
-         <span class="glyphicon glyphicon-wrench logo-small"></span>
-         <h4 style="color:#303030;">HARD WORK</h4>
-         <p>We work hard for your satisfaction</p>
-       </div>
-     </div>
-   </div>
-   
-   <!-- Container (Portfolio Section)
-   <div id="portfolio" class="container-fluid text-center bg-grey">
-     <h2>Portfolio</h2><br>
-     <h4>What we have created</h4>
-     <div class="row text-center slideanim">
-       <div class="col-sm-4">
-         <div class="thumbnail">
-           <img src="paris.jpg" alt="Paris" width="400" height="300">
-           <p><strong>Paris</strong></p>
-           <p>Yes, we built Paris</p>
-         </div>
-       </div>
-       <div class="col-sm-4">
-         <div class="thumbnail">
-           <img src="newyork.jpg" alt="New York" width="400" height="300">
-           <p><strong>New York</strong></p>
-           <p>We built New York</p>
-         </div>
-       </div>
-       <div class="col-sm-4">
-         <div class="thumbnail">
-           <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-           <p><strong>San Francisco</strong></p>
-           <p>Yes, San Fran is ours</p>
-         </div>
-       </div>
-     </div><br> -->
-     
-     
-     </div>
-   </div> -->
-   
-   <!-- Container (Pricing Section) -->
-   <div id="pricing" class="container-fluid">
-     <div class="text-center">
-       <h2>Pricing</h2>
-       <h4>Choose a payment plan </h4>
-     </div>
-     <div class="row slideanim">
-       <div class="col-sm-4 col-xs-12">
-         <div class="panel panel-default text-center">
-           <div class="panel-heading">
-             <h1>Basic</h1>
-           </div>
-           <div class="panel-body">
-             <p><strong>Single Blind Stick</strong> Lorem</p>
-           
-           </div>
-           <div class="panel-footer">
-             <h3>RWF 25,000</h3>
-             <button class="btn btn-lg">Place Order Now </button>
-           </div>
-         </div>      
-       </div>     
-       <div class="col-sm-4 col-xs-12">
-         <div class="panel panel-default text-center">
-           <div class="panel-heading">
-             <h1>1O Pcs Package</h1>
-           </div>
-           <div class="panel-body">
-             <p><strong> 10 Pcs of Blind Stick ordered togather  </strong></p>
-             
-           </div>
-           <div class="panel-footer">
-             <h3>RWF 23,000</h3>
-             <button class="btn btn-lg">Place Order Now</button>
-           </div>
-         </div>      
-       </div>       
-       <div class="col-sm-4 col-xs-12">
-          <div class="panel panel-default text-center">
-            <div class="panel-heading">
-              <h1>50 Pcs Package</h1>
-            </div>
-            <div class="panel-body">
-              <p><strong> 50 Pcs of Blind Stick ordered togather  </strong></p>
-              
-            </div>
-            <div class="panel-footer">
-              <h3>RWF 20,000</h3>
-              <button class="btn btn-lg">Place Order Now</button>
-            </div>
-          </div>      
-        </div>  
-       </div>    
-     </div>
-   </div>
-   
-   <!-- Container (Contact Section) -->
-   <div id="contact" class="container-fluid bg-grey">
-     <h2 class="text-center">CONTACT</h2>
-     <div class="row">
-       <div class="col-sm-5">
-         <p>Contact us and we'll get back to you within 24 hours.</p>
-         <p><span class="glyphicon glyphicon-map-marker"></span> Rwamagan, Rwanda</p>
-         <p><span class="glyphicon glyphicon-phone"></span> +250788545299</p>
-         <p><span class="glyphicon glyphicon-envelope"></span>adrienbizi1993@gmail.com</p>
-       </div>
-       <form  name="contact1" method="POST" data-netlify="true" >
-       <div class="col-sm-7 slideanim">
-         <div class="row">
-           <div class="col-sm-6 form-group">
-             <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-           </div>
-           <div class="col-sm-6 form-group">
-             <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-           </div>
-         </div>
-         <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-         <div class="row">
-           <div class="col-sm-12 form-group">
-             <button class="btn btn-default pull-right" type="submit">Send</button>
-           </div>
-         </div>
-       </div>
-      </form>
-     </div>
-   </div>
-   <div class="panel-body">
-      <H2 class="text-center">subscribe to our newsletter</H2>
-       <form name="contact" method="POST" data-netlify="true">
-           <div class="input-group">
-             <input type="email" class="form-control" name ="email" size="50" placeholder="Email Address" required>
-             <div class="input-group-btn">
-               <button type="submit" class="btn btn-danger">Subscribe</button>
-             </div>
-           </div>
-         </form>
-   </div>
+  </section>
+  <!--section about our company-->
+  <section>
+    <div class=" container col s12" id="about">
+        
+      <div class="col s12">
+        <div class="card-panel">
+          <i class="material-icons large teal-text">build</i>
+          <h4 class="teal-text">Digital And Mechanical Company LTD </h4>
 
-   <!-- Image of location/map -->
+          <p> Using this smart blind stick, a visually impaired person can walk without anyone's help.
+              The smart blind stick automatically detects the obstacle in front of the person and give
+             him a response to the person by vibrating the stick and also with a warning sound </p>
+             <br>
+
+            <p>Visually impaired people are the people who can't identify smallest detail with healthy eyes.
+             Those who have the visual acuity of 6/60 or the horizontal extent of the visual field with both 
+             eyes open less than or equal to 20 degrees, these people are considered blind. Such people are in 
+             need of aiding devices for blindness related disabilities. 10% of blind have no usable eyesight at all to help them move around 
+            independently and safely. The electronic aiding devices are designed to solve such issue.</p>
+        </div>
+    </div>
    
-   
-   <footer class="container-fluid text-center">
-     <a href="#myPage" title="To Top">
-       <span class="glyphicon glyphicon-chevron-up"></span>
-     </a>
-     <p>D&M COMPANY LTD <a href="https://dmcoltd.netlify.com/#about" title="Visit w3schools">www.dmcoltd.com</a></p>
-   </footer>
-   <script src="main.js">
-   
+  </div>
+</div>
+
+</div>
+  </section>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script >
+        var elem = document.querySelector('.sidenav');
+         var instance = new M.Sidenav(elem);
+         var slides = document.querySelectorAll('.slider');
+         M.Slider.init(slides, {
+           indicators:true,
+           height: 500,
+           transition: 500,
+           interval:5000
+
+         });
+
     </script>
-       
-   </body>
-   </html>
+  </body>
+</html>
